@@ -127,9 +127,22 @@ body {
 		margin-bottom: 1em;
 		box-sizing: border-box;
 	}
+
+/*		.tweet-compose:focus {
+		width: 100%;
+		height: 5em;
+		font-size: 13px;
+		padding: 5px;
+		border: 1px solid #ccc;
+		border-radius: 3px;
+		margin-bottom: 1em;
+		box-sizing: border-box;
+	}*/
 		#tweet-controls {
 			text-align: right;
+			display: none;
 		}
+
 			#tweet-controls div {
 				display: inline-block;
 			}
@@ -138,6 +151,10 @@ body {
 				color: #999;
 				text-shadow: 0 1px 1px rgba(255,255,255,.75);
 			}
+
+			.overlimit {
+  				 color: red;         
+			}​
 
 /* TWEET */
 .tweet {
